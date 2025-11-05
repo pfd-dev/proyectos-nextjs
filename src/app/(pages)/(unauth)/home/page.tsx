@@ -8,8 +8,6 @@ import { useThemeController } from '@/libs/hooks/useThemeController';
 import { GitHubIcon, GmailIcon, LinkedInIcon } from '@/utils/icons';
 // Pictures
 import photoProfile from '@/utils/images/profile.png';
-// Local Components
-import { WorkExperience } from './components/WorkExperience';
 // Lang
 import dataLeng from '@/lang/lang-es.json';
 import { Button } from '@/components/common/Button';
@@ -17,7 +15,7 @@ import { Button } from '@/components/common/Button';
 // &quot; = ''
 
 export default function Home() {
-  const { UI_COLORS, tones } = useThemeController();
+  const { tones } = useThemeController();
   const { copied, copyToClipboard } = useClipboard();
 
   const projects = [
@@ -63,7 +61,6 @@ export default function Home() {
 
             <p>Aquí encontrarás desde aplicaciones prácticas hasta proyectos creativos que demuestran diferentes aspectos del desarrollo frontend.</p>
 
-
             <div className="flex flex-wrap justify-center gap-8 items-center">
               <div className="text-center">
                 <div className="text-3xl font-bold text-purple-400">React</div>
@@ -82,7 +79,6 @@ export default function Home() {
                 <div className="text-sm text-stone-300">CSS</div>
               </div>
             </div>
-
 
             <hr className={`border ${tones.borderColor.normal} rounded-xl`} />
 

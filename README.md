@@ -2,6 +2,8 @@
 
 Este repositorio contiene el código fuente de mis proyectos y aplicaciones desarrolladas con **React**, utilizando el framework **Next.js** y estilos con **Tailwind CSS**.
 
+* **Proyectos de NextJS desplegado en Vercel:** [https://proyectos-nextjs.vercel.app/home](https://proyectos-nextjs.vercel.app/home)
+
 ---
 
 ### Contenido del sitio
@@ -27,11 +29,11 @@ Un pequeño juego interactivo que pone a prueba la memoria del usuario. Implemen
 
 ---
 
-### Cómo ejecutar el proyecto
+### Ejecutar el proyecto
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/pfd-dev/mi-proyecto-react.git
+   git clone https://github.com/pfd-dev/proyectos-nextjs.git
    ```
 2. Instala las dependencias:
    ```bash
@@ -44,14 +46,6 @@ Un pequeño juego interactivo que pone a prueba la memoria del usuario. Implemen
 4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
 ---
-
-### Próximas actualizaciones
-
-Este proyecto está en constante evolución. Planeo agregar:
-
-- Nuevas funcionalidades al CRUD.
-- Mejoras visuales al juego de memoria.
-- Animaciones y transiciones con Tailwind y Framer Motion.
 
 > **El código es completamente libre**, aunque la información personal está protegida y no debe utilizarse con fines externos.
 
